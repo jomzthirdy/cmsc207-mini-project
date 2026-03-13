@@ -10,21 +10,21 @@ header {
     height: 150px;
     background: #800000;
     color: white;
+    flex-wrap: wrap;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #E0E0E0;
     font-family: "Roboto";
+    flex-wrap: wrap;
 }
 
 main {
     flex: 1;
-    overflow-y: auto;
 }
 
 #title {
