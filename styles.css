@@ -32,7 +32,7 @@ main {
     justify-content: center;
 }
 
-#menu {
+#menu-bar {
     display: flex;
     justify-content: center;
     align-items: center;
