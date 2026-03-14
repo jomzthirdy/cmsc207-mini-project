@@ -82,9 +82,16 @@ li:hover {
     width: 750px;
 }
 
-.about-me-img {
+#about-me-img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
     max-width: 500px;
     height: auto;
+}
+
+#about-me-img:hover {
+    transform: scale(1.10);
+    z-index: 10;
 }
 
 p {
@@ -142,6 +149,17 @@ button {
     max-width: 500px;
 }
 
+.hai-images-size {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.hai-images-size:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
 .hai-text {
     display: none;
     margin-top: 30px;
@@ -165,6 +183,16 @@ button {
     gap: 200px;
     padding: 20px;
     flex-wrap: wrap;
+}
+
+#ci-image-image {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#ci-image-image:hover {
+    transform: scale(1.10);
+    z-index: 10;
 }
 
 .connections {
