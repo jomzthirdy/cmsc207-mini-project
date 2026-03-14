@@ -14,7 +14,9 @@ This personal web profile is submitted in partial fulfillment of the requirement
 
 ## Project Requirements
 
-The webpage should include the following sections:
+The webpage structure is a single page website.
+
+The webpage includes the following sections:
 1. Header – Name, site title, and a simple navigation menu (links can be placeholders).
 2. About Me – A short paragraph introducing the student with an image.
 3. Hobbies & Interests – A list of at least three hobbies with brief descriptions.
